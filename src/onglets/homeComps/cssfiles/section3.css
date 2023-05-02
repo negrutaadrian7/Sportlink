@@ -1,0 +1,56 @@
+.home-navContact1 {
+    width: 99% !important;
+    height: 80px !important ;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 100px !important;
+}
+
+
+
+.home-navContact2 {
+    width: 100% !important;
+    height: 10vh !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 5px !important;
+    margin-bottom: 120px !important;
+}
+
+
+
+.home-contact-button {
+    background-color: red !important;
+    border: none !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    padding: 12px 24px !important;
+}
+
+
+
+.text-reach {
+    font-family: antonio !important;
+    font-size: 24px !important;
+    margin-bottom: 0 !important;
+}
+
+.footer {
+    width: 100%;
+    background-color: transparent !important;
+    display: flex !important;
+    justify-content: center !important;
+
+}
+
+
+
+.copyrights {
+    width: 100%;
+    background-color: transparent ;
+    display: flex ;
+    justify-content: center ;
+    color: white;
+}
+
+

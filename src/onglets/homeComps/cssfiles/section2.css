@@ -1,0 +1,88 @@
+.home-textecarousel{
+    text-align: center;
+}
+
+.home-carrousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-carousel-items {
+    position: relative;
+    display: flex;
+    min-height: 250px;
+    min-width: 70%;
+}
+
+.home-carousel-img0, .home-carousel-img1, .home-carousel-img2, .home-carousel-img3 {
+    width: 25%;
+    border: none;
+    background: none;
+}
+
+.home-carousel-img0{
+    opacity: 0;
+    z-index:0;
+    position: absolute !important;
+    top : 30%;
+    left : 0px;
+    transition: all 1s ;
+}
+
+.home-carousel-img1{
+    z-index:0;
+    position: absolute !important;
+    top : 30%;
+    left : 0px;
+    transition: all 1s ;
+}
+
+.home-carousel-img2{
+    z-index: 2;
+    position: absolute !important;
+    top : 30%;
+    left : 35%;
+    transition: all 1s ;
+}
+
+.home-carousel-img3{
+    z-index: 2;
+    position: absolute !important;
+    top : 30%;
+    left : 75%;
+    transition: all 1s ;
+}
+
+.home-carrouselC {
+    display: inline-block;
+    width: 50px ;
+    height: 50px ;
+    border-radius: 40px ;
+    background-color: rgb(223, 33, 16);
+    font-size: 25px ;
+    text-align: center ;
+    padding: 9% !important;
+    transition: ease-out 0.3s ;
+}
+
+.home-carrouselC:hover {
+    border: 1px solid rgb(223, 33, 16) ;
+    box-shadow: inset 100px 0 0 0 #19191B  ;
+    cursor: pointer;
+}
+
+.cardImageStyle {
+    border: none;
+    border-radius: 15px;
+    min-height: 15%;
+    min-width: 15%;
+}
+
+.logoplus {
+    position: absolute;
+    top: 0;
+    right: -15px;
+    width: 70px;
+    height: 40px;
+}

@@ -1,0 +1,160 @@
+
+
+.chat {
+    text-align: center;
+    max-width: 728px;
+    margin: 0 auto;
+}
+
+.chat header {
+    background-color: #181717;
+    height: 10vh;
+    min-height: 50px;
+    color: white;
+    width: 100%;
+    max-width: 728px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.chat section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 50vh; 
+    background-color: rgb(40, 37, 53);
+}
+.chat  {
+    background-image: url("https://www.oregonlottery.org/wp-content/uploads/2022/01/draftkings_better_together_2000x1500-768x576.jpg");
+    font-size: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.gl {
+    padding: 10px;
+    height: 50vh; /* modif */
+    margin: 0 0 0;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.gl::-webkit-scrollbar {
+    width: 8px;
+}
+
+.gl::-webkit-scrollbar-track {
+    background: black;
+}
+
+.gl::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 20px;
+}
+
+.fo {
+    height: 10vh;
+    bottom: 0;
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    max-width: 728px;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.fo button {
+    width: 20%;
+    background-color: rgb(56, 56, 143);
+}
+
+
+.in {
+    line-height: 1.5;
+    width: 100%;
+    font-size: 1.5rem;
+    background: rgb(58, 58, 58);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    border: 2px solid #282c34;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.bu { /* send message to the chat button */
+    background-color: #282c34;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+.bu:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
+.ulli {
+    text-align: left;
+    list-style: none;
+}
+
+.pa {
+    max-width: 500px;
+    margin-bottom: 12px;
+    line-height: 24px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+
+
+.message {
+    display: flex;
+    align-items: center;
+    margin: 10px
+}
+
+
+.sent {
+    flex-direction: row-reverse;
+}
+
+.sent p {
+    color: white;
+    background: #0b93f6;
+    align-self: flex-end;
+}
+
+.received p {
+    background: rgb(54, 50, 50);
+    color: black;
+}
+
+.im {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 2px 5px;
+    cursor: pointer;
+}

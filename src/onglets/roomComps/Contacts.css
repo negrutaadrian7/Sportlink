@@ -1,0 +1,39 @@
+ .lipersoo {
+     align-items: center;
+     display: flex;
+     border: solid 1px white;
+     border-left: none;
+     border-right: none;
+     width:50vh;
+ }
+ .imagepersaloo {
+    max-width: 10vh;
+        max-height: 10vh;
+        min-width: 10vh;
+        min-height: 10vh;
+     border-radius: 50%;
+     padding: 1vh;
+ }
+
+ .imagepersaloo:hover {
+     max-width: 12vh;
+     max-height: 12vh;
+     min-width: 12vh;
+     min-height: 12vh;
+     cursor: pointer;
+     padding: 1vh;
+ }
+  .h5listt {
+    margin-left: 2vh;
+      cursor: pointer;
+  }
+
+  .lechatt {
+      
+      top: 27vh;
+      left: 60%;
+      z-index: 1;
+      opacity: 80%;
+      width: 60vh;
+      
+  }

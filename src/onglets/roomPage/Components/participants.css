@@ -1,0 +1,50 @@
+
+
+ .liperso{
+      align-items: center;
+      display: flex; 
+      border: solid 1px white;
+      border-left: none;
+      border-right: none;
+    }
+ .liperso:hover{
+  
+  border:solid 1px burlywood;
+  border-left: none;
+    border-right: none;
+ }
+ 
+
+.imagepersalo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      padding: 20px;
+      
+    }
+.imagepersalo:hover{
+  width: 180px;
+    height: 180px;
+    cursor: pointer;
+}
+   .buttonlist{
+    background-color: #d4d4d4;
+      color: #000000;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+   }
+     .buttonlist:hover {
+    background-color: #c82333;
+    color: #ffffff;
+     }
+ .liperso:hover .buttonlist {
+  background-color: #c82333;
+    color: #ffffff;
+ }
+ .h5list
+ {
+  cursor: pointer;
+ }

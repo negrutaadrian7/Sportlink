@@ -1,0 +1,93 @@
+.roomContainer{
+    min-height: 100vh !important;
+    height :  100% !important;
+}
+
+#root{
+    background-image: url('ball.jpg');
+    overflow-x: hidden;
+}
+
+.roomContainer{
+    width: 100%;
+}
+
+.roomContainer h1,.roomContainer h2,.roomContainer h3,.roomContainer h4, .hstack div,.roomContainer p{
+    color: white !important;
+    
+}
+.Match{
+    width: 50% ;
+    display: flex;
+    align-content: left;
+
+}
+
+.title-salon {
+    font-family: 'Dongle', sans-serif;
+    font-size: 80px;
+}
+
+.join-button, .leave-button {
+    display: inline-block;
+    background-color: #0e488a;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+.join-button:hover, .leave-button:hover {
+    background-color: #b63159;
+}
+  
+.mb-3 .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.mb-3 .nav-link { /* Localisation, MaxPlayer, Sport etc*/
+    background-color: #092b51;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+  
+.mb-3 .nav-link:hover {
+    background-color: #b63159;
+    cursor: pointer;
+}
+  
+.mb-3 .nav-link.active {
+    background-color: #b63159;
+    color: white;
+}
+  
+.tab-content {
+    background: none;
+    padding: 20px;
+    margin-top: 10px;
+    
+}
+
+.chat-salon {
+    margin-bottom: 100px;
+}
+  
+.progress {
+    width: 50%;
+    margin: 20px auto;
+}

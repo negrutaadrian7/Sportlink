@@ -1,0 +1,145 @@
+
+
+.PremiereH1
+{
+color: azure;
+padding-left: 2vh;
+padding-bottom: 1.5vh;
+
+}
+
+.mybody {
+    background-color: #19191B !important;
+}
+.tous 
+ {  padding-top: 20vh;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+ }
+.imagelabel{
+    display: flex;
+        align-items: center;
+}
+
+.list-group-item {
+    display: flex;
+    color: #ffffff;
+    background-color: #19191B;
+    height: 8vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    min-width: 600px;
+    border: 2px solid #3a3f3f;
+    border-left: none;
+    border-right: none;
+    
+    }
+.list-group-item.active {
+    color: rgb(237, 237, 74);
+    background-color:#242428;
+    border-color:blanchedalmond ;
+}
+.list-group-item.active h5 
+{
+    color:rgb(237, 237, 74); ;
+}
+.list-group-item.active .Modifier {
+    color: rgb(15, 60, 223);
+    ;
+}
+.list-group-item h4 {
+    float: left;
+    margin-top: -1vh;
+    width: 30vh;
+    min-width: 150px;
+}
+.Modifier
+{ 
+    cursor: pointer;
+    color: #596564;
+}
+.input {
+width: 80vh;
+height: 5vh;
+margin-top: -1.3vh;
+margin-right: 20%;
+
+}
+
+
+h5{
+    color: rgb(212, 212, 212);
+    margin: -1vh;
+     width: 140vh;  
+}
+h3 
+{
+    margin-top: 2vh;
+    margin-left:2vh;
+}
+
+.buttonUn {
+    height: 4vh;
+    margin-top: -1vh;
+    background-color: rgb(0, 0, 0);        
+    color: #e7e7e7;
+}
+
+.buttonUn:hover {
+    border: 2px solid #ce5151;}
+
+.imagepr {
+    border: 1px solid rgb(195, 195, 195);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 20px;
+}
+.imagepr.hover {
+width: 210px;
+height: 210px;
+padding: 0;
+
+}
+  .imagcha {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+      margin-top: 18vh;
+      margin-left: -7vh;
+
+  }
+ .lenavarr{
+    background-color: #29292c;
+    height: 13vh;
+    margin-left: -2vh;
+    margin-right: -2vh;
+ 
+    
+ }
+.drop
+{
+    margin-right: 6vh;
+}
+.sendbu{
+    height: 4vh;
+    margin-left:5vh;
+    background-color: rgb(36, 124, 218);
+    color: #e7e7e7;
+    opacity: 65%;
+    border: #ffffff;
+    box-shadow: #ffffff;
+}
+.lechat {
+   position: absolute;
+   top: 20vh;
+   left:40%;
+   z-index: 1;
+   opacity: 60%;
+}

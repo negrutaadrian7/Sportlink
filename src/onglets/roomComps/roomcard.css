@@ -1,0 +1,112 @@
+.rooms-card {
+  background: linear-gradient(
+    45deg,
+    hsla(233, 85%, 52%, 0.5),
+    hsla(0, 82%, 45%, 0.5) 100%
+  )
+}
+
+.rooms-card .card-body {
+  padding: 1rem;
+}
+
+.rooms-card .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.rooms-card .card-subtitle {
+  font-size: 0.9rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.rooms-card .card-footer {
+  padding: 0.5rem 1rem;
+  border-top: none;
+}
+
+.rooms-card .card-footer > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rooms-card .card-footer button {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.rooms-card .badge {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.badge-joined {
+    
+    background-color: #b63159 !important;
+}
+
+.badge-joined:hover {
+    background-color: #911e41 !important;
+}
+
+.button-join {
+    background-color: #092b51;
+}
+
+
+
+.link-join {
+    display: block;
+    align-items: center;
+    text-decoration: none;
+}
+  
+.link-join:hover {
+    text-decoration: none;
+}
+  
+.button-join {
+    
+    background-color: #092b51;
+    align-items: center;
+    color: white;
+    
+}
+
+.link-browse {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.link-browse:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+.button-join:hover {
+    background-color: #0b2c50;
+    color: white;
+}
+
+
+/* Browse button */
+.button-browse {
+    line-height: 1;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+}
+  
+.button-browse:hover {
+    background-color: #02607a;
+    cursor: pointer;
+}

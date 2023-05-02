@@ -1,0 +1,25 @@
+.home-playerimg {
+    z-index: 1;
+    background-size : 30%;
+    display: flex; 
+    background-position : 80% 70%; 
+    background-repeat: no-repeat;
+    height : 600px; 
+    background-image: url("../utils/joueur.png");
+}
+
+.home-container1 {
+    margin: auto 0;
+    width : 60%;
+}
+.custom-h1 {
+    font-size: 450%;
+    font-family: antonio;
+    font-weight: bold;
+    width: 80%;
+}
+
+.home-buttonsmain {
+    padding-top: 7%;
+    z-index: 1;
+}
