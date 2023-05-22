@@ -64,10 +64,4 @@ npm install
 **Base de données:** Firebase
 
 
-## Create By
 
-- Adrian Negruta
-- Brahim Saadaoui
-- Hamza Hamdaoui
-- Ismail Hamaimou
-- Zakaria El Foual
