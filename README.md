@@ -1,10 +1,5 @@
 # Sportlink
 
-Nous avons tous eu envie de pratiquer un sport collectif mais nous avons été confrontés à des obstacles tels que le manque de joueurs pour former une équipe complète, 
-l'organisation (lieu, date, horaires, etc.) entre les joueurs, ou encore la difficulté de trouver des terrains appropriés. Pour remédier à ces problèmes,
-nous avons créé une plateforme qui permet à tout un chacun de pratiquer le sport qu'il souhaite, où et quand il le souhaite,
-en éliminant tous ces obstacles et en encourageant la pratique sportive. Que vous soyez nouveau dans une ville ou que vous cherchiez simplement à découvrir un nouveau sport,
-notre plateforme vous offre une solution facile et accessible.
 
 Fonctionnalités : 
 - Gestion des inscrits : ajout/modification/suppression d’un compte
